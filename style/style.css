@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#glav{
+    display: flex;
+    /* background-color: aqua; */
+    /* justify-content: space-around; */
+}
+#glav_r{
+    /* background-color: aqua; */
+    width: 5%;
+}
+
+.panel_int{
+    margin: 5px;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    /* height: 80px; */
+    text-align: center;
+    /* background-color: blueviolet; */
+    font-size: 11px;
+}
+.panel_int:hover{
+    background-color: rgb(228, 227, 227);
+}
+.int_img{
+    /* margin-left: 20px; */
+    width: 30%;
+}
+.header_img{
+    height: 24px;
+}
+#header_line{
+    width: 5%;
+}
+header{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#header_panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+}
+#header_panel_r{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header_input{
+    width: 80%;
+}
+#panel_c{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+#glav_l{
+    
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    padding: 2% 2% 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color:red; */
+}
